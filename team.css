@@ -1,0 +1,51 @@
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin:0px;
+	padding:0px !important;
+	overflow-x:hidden;
+	color:#555555;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:#555555;
+    font-size:40px;
+}
+
+.ourteam {
+    background: #52d9eb;
+}
+
+.ourteam_wrapper .team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourteam_wrapper .team-1.team {
+    margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_member {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ourteam_wrapper .team_member img {
+    width: 100%;
+    display: block;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_member:hover img {
+    transform: scale(1.1);
+}
+
+.ourteam_wrapper .team_member p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0d3cd6;
+}
